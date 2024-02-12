@@ -1,17 +1,21 @@
-# Movie Quote Generator Project (Screenmatch aplication)
+# Movie Quote Generator Project
 
-Este é um projeto para gerar frases aleatórias relacionadas a personagens de filmes, bem como retornar o poster do filme correspondente.
+This project utilizes Java, Spring Boot, Spring Data JPA, and REST API consumption to generate random quotes related to movie characters and retrieve the corresponding movie poster. Additionally, it provides an endpoint for interaction with the frontend.
 
-## Funcionalidades
+## Objective
 
-- Gerar frases aleatórias relacionadas a personagens de filmes.
-- Retornar o poster do filme correspondente à frase.
+The objective of this project is to provide a service for generating random movie quotes and fetching the associated movie poster. The provided endpoint allows interaction with the frontend to display the quotes and posters in a user-friendly manner.
 
-## Tecnologias Utilizadas
+## Features
+
+- Generation of random movie quotes.
+- Retrieval of movie posters based on the generated quotes.
+- Endpoint for interaction with the frontend.
+
+## Technologies Used
 
 - Java
 - Spring Boot
 - Spring Data JPA
-- Banco de Dados (ex: MySQL, PostgreSQL, etc.)
-- Padrão REST
-- API de Filmes (para obter informações e posters dos filmes)
+- REST API Consumption
+
